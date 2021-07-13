@@ -1,0 +1,151 @@
+
+body{
+    background: #F3F1FF;
+
+}
+
+
+header{
+    width: 870px;
+    height: 679;
+    /* background-color:#F3F1FF; */
+    margin-left: 315px;
+    margin-right: 318px;
+    border-bottom: 1px solid #D1D1D1;
+    padding-bottom: 30px;
+
+    
+}
+
+header h3{
+    font-size: 24px;
+}
+
+.top-1{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:29px 130px;
+   
+}
+.top-1-details{
+    display: flex;
+    
+}
+
+.top-1-image{}
+.top-1-image img{
+    width: 56px;
+    height: 56px;
+}
+
+.player-name{
+    margin-left: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container{
+  
+}
+.section-1{
+    width: 870px;
+    margin-bottom: 0%;
+    margin-left:315px;
+    margin-right: 343px;
+    padding-bottom: 63px;
+    
+}
+.section-1 h3{
+    padding: 30px 0px;
+}
+.blogs{
+  
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 26px 46px;
+}
+.blog-details{
+    display: flex;
+}
+.blog-image{}
+.blog-image img{
+    width: 177px;
+    height: 117px;
+}
+.blog-text{
+    margin-left: 16px;
+}
+.blog-text a{
+    text-decoration: none;
+}
+
+
+
+
+.section-2{
+    border-radius: 10px;
+    width: 870px;
+    margin-top: 0%;
+    background-color: #FFFFFF;
+    margin: 0 285px;
+    padding: 0 30px;
+    margin-bottom: 28px;
+}
+
+.section-2 h3{
+    padding-top: 23px;
+    padding-bottom: 11px;
+}
+.courses{
+   
+}
+.course{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+    grid-gap:23px;
+}
+.course-details{
+    width: 252px;
+    height: 270px;  
+    box-shadow: 1px 1px 20px whitesmoke;
+    padding-left: 20px;
+    padding-top: 15px;
+    border-radius: 15px;
+    margin-bottom: 22px;
+}
+.course-image{}
+.course-image img{
+    width: 224px;
+    height: 104px;
+}
+
+.course-low{
+    width: 224px;
+    height: 104px;
+}
+.course-text{}
+
+.course-font{
+   
+}
+
+
+
+
+/*--------------------------------------- This is Responsive part */
+
+@media (max-width:576) {
+    
+    
+}
